@@ -77,6 +77,8 @@ public class AnimalsConfig implements InitializingBean {
             throw new IOException("IO exception", e);
         }catch (JSONException e){
             throw new JSONException("Json format is wrong", e.getCause());
+
+
         }
     }
 

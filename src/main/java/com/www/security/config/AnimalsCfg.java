@@ -20,6 +20,8 @@ public class AnimalsCfg {
      */
     private String name;
 
+
+
     /**
      * 动物的体重
      */
