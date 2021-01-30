@@ -1,0 +1,9 @@
+server:
+  port: 8108
+
+animals:
+  config: src/main/resources/animals.json
+
+configfiles:
+  jntaConfigFiles: {"A": "a","B": "b"}
+debug: true

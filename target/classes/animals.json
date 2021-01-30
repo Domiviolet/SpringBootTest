@@ -1,0 +1,20 @@
+{
+  "dog": {
+    "host": "Monday",
+    "name": "DD",
+    "weight": "25",
+    "color": "red"
+  },
+  "cat": {
+    "host": "Tuesday",
+    "name": "ZZ",
+    "weight": "26",
+    "color": "white"
+  },
+  "lion": {
+    "host":"Wednesday",
+    "name": "YY",
+    "weight": "10",
+    "color": "red"
+  }
+}
