@@ -2,8 +2,9 @@ server:
   port: 8108
 
 animals:
-  config: src/main/resources/animals.json
+  config: /Users/dominatingm/IdeaProjects/SpringBootTest/src/test/resources/testFiles/projectFiles/animals.json
 
 configfiles:
   jntaConfigFiles: {"A": "a","B": "b"}
-debug: true
+
+

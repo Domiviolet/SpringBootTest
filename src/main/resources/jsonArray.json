@@ -1,0 +1,20 @@
+
+[
+   {"path": "path1",
+     "appId": "appId1",
+     "type": "A"
+    },
+   {"path": "path2",
+     "appId": "appId2",
+     "type": "B"
+   },
+  {"path": "path3",
+    "appId": "appId3",
+    "type": "A"
+  },
+  {"path": "path4",
+    "appId": "appId4",
+    "type": "B"
+  }
+
+ ]

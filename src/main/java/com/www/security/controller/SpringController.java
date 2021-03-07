@@ -2,7 +2,6 @@ package com.www.security.controller;
 
 import com.www.security.config.AnimalsCfg;
 import com.www.security.config.AnimalsConfig;
-import com.www.security.config.HsmSigner;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,8 +17,8 @@ public class SpringController {
     @Resource
     private AnimalsConfig animalsConfig;
 
-    @Resource
-    private HashMap<String, HsmSigner> aa;
+//    @Resource
+//    private HashMap<String, HsmSigner> aa;
 
 
     @GetMapping("/1")

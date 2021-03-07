@@ -12,8 +12,9 @@
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
         <groupId>org.springframework.boot</groupId>
-        <version>2.3.3.RELEASE</version>
+        <version>2.4.0</version>
     </parent>
+
 
     <dependencies>
 <!--        Web项目常用的依赖-->
@@ -22,11 +23,24 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+<!--查看 springboot 容器中所有的 bean-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--        </dependency>-->
+
 <!--        产生 set/get 方法的插件-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+<!--            <version>1.18.12</version>-->
         </dependency>
 
 <!--        处理 json 数据的依赖-->
@@ -43,11 +57,11 @@
             <version>1.7.30</version>
         </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
 
 <!--        处理 io 流的依赖-->
         <dependency>
@@ -58,17 +72,18 @@
 
 
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+<!--            <version>4.13</version>-->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
             <version>2.4.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>5.3.1</version>
-            <scope>test</scope>
-        </dependency>
+
 
     </dependencies>
 
