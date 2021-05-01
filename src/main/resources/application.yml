@@ -1,10 +1,16 @@
+
 server:
   port: 8108
 
 animals:
   config: /Users/dominatingm/IdeaProjects/SpringBootTest/src/test/resources/testFiles/projectFiles/animals.json
 
+
 configfiles:
   jntaConfigFiles: {"A": "a","B": "b"}
-
-
+fresh:
+  length: 23
+spring:
+  profiles:
+    include: common,hsm
+school: xx
